@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Atlas connection string
-const mongoURI = 'mongodb+srv://pratik2271:pratik%401624@pratikproject.vglse6e.mongodb.net/gateSubjects?retryWrites=true&w=majority';
+const mongoURI = '';
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
